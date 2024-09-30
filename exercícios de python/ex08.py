@@ -1,0 +1,5 @@
+a = int(input("Digite a variável, A, do tipo inteiro: "))
+b = int(input("Digite a segunda variável B: "))
+c = int(input("Digite o valor de C: "))
+m = (b*b) - (4*a*c)
+print("O delta de Bhaskara vale: ", m)
