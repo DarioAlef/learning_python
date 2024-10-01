@@ -33,7 +33,7 @@ nome2 = 'Bacate'
 for x in range(5):
     print(f'{x+1} {nome2}')
 
-for k in range(0, -21, -4): #respectivamente: valor inicial, valor inicial, incremento (de 4 em 4)
+for k in range(0, -21, -4): #respectivamente: valor inicial, valor final, incremento (de 4 em 4)
     print(k)
 
 print('\n')
