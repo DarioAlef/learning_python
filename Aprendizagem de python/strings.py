@@ -27,3 +27,16 @@ print(minha_string.find("rei"))
 
 #substituir partes de uma string
 print(minha_string.replace("rei", "rainha"))
+
+# FORMATED STRING: 
+nome = 'Dário Alef'
+peso = 80
+print(f'\nOlá, meu nome é {nome} e eu peso {peso} quilos\n')
+
+a = 50
+b = 17
+print(f'A soma de {a} + {b} é igual a {a + b}\n')
+
+valor = 10/3
+print(f'O valor é {valor}\n')
+print(f'O valor é {valor:.2f}\n')
