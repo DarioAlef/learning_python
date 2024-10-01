@@ -67,3 +67,17 @@ for i in lista3:
     
 for i in range(20,30,2): #1° = início, 2° = fim, 3° = parâmetro de ação
     print(i)
+
+#DISSECANDO UMA VARIÁVEL
+
+a = input('Digite algo: ')
+print('O tipo primitivo é: ', type(a))
+print('Só tem espaços? ', a.isspace())
+print('É um número? ', a.isnumeric())
+print('É alfabético? ', a.isalpha())
+print('É alfanumérico? ', a.isalnum())
+print('Está em maiúsculo? ', a.isupper())
+print('Está em minúsculo?', a.islower())
+print('Está capitalizada (maiúsculas e minúsculas) ? ', a.istitle())
+
+# RAIZ QUADRADA: num **(1/2)
