@@ -4,11 +4,7 @@ num = int(input('\nDigite um número inteiro qualquer: '))
 
 count = 0
 
-while num > 0:
-    num / 10
-    count+=1
-    print(count)
-    break
-
-
-###########sdddfkn\sf~vnadsiofjzxlkcnseefsn
+while num > 1:         # antes com 'num / 10', a variável 'num' não recebia o valor
+    num = num / 10     # ou seja, a cada novo laço, num voltava para o seu valor original
+    count+=1           # por isso estava em um laço infinito
+print(count)
