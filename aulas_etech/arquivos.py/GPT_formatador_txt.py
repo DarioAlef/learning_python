@@ -31,14 +31,10 @@ def _list_to_list_dict_user(lines_file: list):
     return list_user
 
 
-def _show_info(user_dict: list):
-    pass
-
-
 if __name__ == '__main__':
     # obter linhas do arquivo
     lines_file = _read_file_to_list()
-    print(lines_file)
+    print(lines_file)  #abrir e fechar arquivo
     dict_user = _list_to_list_dict_user(lines_file=lines_file)
     print(dict_user)
     
